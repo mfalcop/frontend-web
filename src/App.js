@@ -4,6 +4,7 @@ import Register from './components/register'
 import NewProject from './components/newProject'
 import Dashboard from './components/dashboard'
 import Navbar from "./components/navbar";
+import PL from "./components/projectList";
 import './App.css';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
@@ -14,7 +15,7 @@ class App extends Component {
         <div >
 
           <Navbar />
-          <Route exact path='/' component={Dashboard} />
+          <Route exact path='/' component={PL} />
           <Route path="/login" component={Login} />
           <Route path="/signup" component={Register} />
           <Route path="/newProject" component={NewProject} />

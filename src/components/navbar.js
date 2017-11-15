@@ -16,7 +16,7 @@ class Navbar extends Component {
                             <a className="nav-link" ><Link to="/login">Login</Link></a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" >Link</a>
+                            <a className="nav-link" >TEST</a>
                         </li>
                     </ul>
                     <form className="form-inline my-2 my-lg-0">

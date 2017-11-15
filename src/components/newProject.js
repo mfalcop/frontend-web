@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-import {Card, CardActions, CardHeader, CardMedia, CardTitle, CardText} from 'material-ui/Card';
+import {Card, CardActions, CardHeader, CardTitle, CardText} from 'material-ui/Card';
 
 class NewProject extends Component{
     
@@ -21,7 +21,6 @@ class NewProject extends Component{
                         <CardHeader
                               title="Crear Proyecto"
                               showExpandableButton={true}
-                              closeIcon={true}
                               className="text-center  pt-3"
                             />
                             <div className="card-body">
